@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of Contents Generator 2.0</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col">
+                <h2 style="text-align: center;">TABLE OF CONTENTS GENERATOR 2.0</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3 style="text-align: center;">Paste below the HTML text to which you want to add the table of contents</h2>
+                        <div class="form-group">
+                          <label for=""></label>
+                          <textarea class="form-control" id="HTMLfromUser" style="border-width: 5px; height: 200px;" placeholder="Paste here..."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-3">
+                <div class="col-3 p-2">
+                    <button type="button" class="btn btn-light" id="generateEN"><b>GENERATE</b> ENGLISH</button>
+                </div>
+                <div class="col-3 p-2">
+                    <button type="button" class="btn btn-light" id="generatePL"><b>GENERATE</b> POLISH</button>
+                </div>
+                <div class="col-3 p-2">
+                    <button type="button" class="btn btn-light" id="generateDE"><b>GENERATE</b> GERMAN</button>
+                </div>
+                <div class="col p-2">
+                    <button type="button" class="btn btn-light" id="reset"><b>🔄 RESET</b></button>
+                </div>
+                <div class="col p-2">
+                    <button type="button" class="btn btn-light" id="checkH3"><b>H3 OFF</b></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for=""></label>
+                        <textarea class="form-control" id="tableOfContents" style="border-width: 5px; height: 300px;"></textarea>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
